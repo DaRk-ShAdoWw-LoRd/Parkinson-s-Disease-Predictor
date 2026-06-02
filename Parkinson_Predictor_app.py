@@ -9,9 +9,7 @@ st.set_page_config(
 )
 
 # Load trained pipeline
-model = joblib.load(
-    r"C:\Users\Binish\Downloads\archive (3)\Parkinson_Predictor_Model.pkl"
-)
+model = joblib.load("Parkinson_Predictor_Model.pkl")
 
 # Title
 st.title("Parkinson's Disease Predictor")
